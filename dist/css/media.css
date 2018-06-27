@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1024px) {
+  .slider {
+    height: auto; }
+    .slider__slide {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+  .item {
+    min-height: auto;
+    margin: 0 120px;
+    width: 60%; } }

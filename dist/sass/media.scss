@@ -1,0 +1,14 @@
+@media only screen and(max-width: 1024px){
+	.slider{
+		height: auto;
+		&__slide{
+			flex-direction: column;
+			align-items: flex-start;
+		}
+	}
+	.item{
+		min-height: auto;
+		margin: 0 120px;
+		width: 60%;
+	}
+}
